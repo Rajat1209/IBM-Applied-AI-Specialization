@@ -1,0 +1,139 @@
+
+<!-- saved from url=(0130)file:///C:/Users/Ahmed%20Ismail%20Khalid/Desktop/5ed2ada4-2719-11ea-a5fd-0cc47a792c0a_id_5ed2ada4-2719-11ea-a5fd-0cc47a792c0a.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:9.1px;color:rgb(66,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:9.1px;color:rgb(66,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:12.1px;color:rgb(41,41,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:12.1px;color:rgb(41,41,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:10.6px;color:rgb(66,138,201);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_016{font-family:Arial,serif;font-size:10.6px;color:rgb(66,138,201);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:10.6px;color:rgb(41,41,41);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:10.6px;color:rgb(66,138,201);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:10.6px;color:rgb(66,138,201);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_017{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Calibri Light",serif;font-size:16.1px;color:rgb(46,83,149);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:"Calibri Light",serif;font-size:16.1px;color:rgb(46,83,149);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="file:///C:/Users/Ahmed%20Ismail%20Khalid/Desktop/5ed2ada4-2719-11ea-a5fd-0cc47a792c0a_id_5ed2ada4-2719-11ea-a5fd-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background1.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:72.03px;top:75.53px" class="cls_005"><span class="cls_005">In this course, we'll be using Watson Assistant and Watson Discovery, along with other services</span></div>
+<div style="position:absolute;left:72.03px;top:91.28px" class="cls_005"><span class="cls_005">such as IBM Cloud Functions, Speech to Text, and Text to Speech. You'll create instances of all of</span></div>
+<div style="position:absolute;left:72.03px;top:107.05px" class="cls_005"><span class="cls_005">these services throughout the course, but to get started, let’s create a Watson Assistant and a</span></div>
+<div style="position:absolute;left:72.03px;top:122.80px" class="cls_005"><span class="cls_005">Watson Discovery instance.</span></div>
+<div style="position:absolute;left:72.03px;top:166.05px" class="cls_006"><span class="cls_006">Create a Watson Assistant instance</span></div>
+<div style="position:absolute;left:72.03px;top:192.58px" class="cls_005"><span class="cls_005">In this course, we'll use the Watson Assistant service hosted on the IBM Cloud platform. As a result,</span></div>
+<div style="position:absolute;left:72.03px;top:208.33px" class="cls_005"><span class="cls_005">before we progress further, we'll need to ensure that you are set up with an account. Follow the</span></div>
+<div style="position:absolute;left:72.03px;top:224.08px" class="cls_005"><span class="cls_005">instructions below to get your own instance of Watson Assistant and start building chatbots.</span></div>
+<div style="position:absolute;left:72.03px;top:254.83px" class="cls_005"><span class="cls_005">If you already have a Watson Assistant service running in your IBM Cloud account, you are all set. If</span></div>
+<div style="position:absolute;left:72.03px;top:270.60px" class="cls_005"><span class="cls_005">you don't, please follow these steps to create one. (You can check which services you already</span></div>
+<div style="position:absolute;left:72.03px;top:286.35px" class="cls_005"><span class="cls_005">created from your </span><span class="cls_008">IBM Cloud Dashboard</span><span class="cls_005">).</span></div>
+<div style="position:absolute;left:72.03px;top:329.60px" class="cls_006"><span class="cls_006">Exercise 1: Register with IBM Cloud</span></div>
+<div style="position:absolute;left:90.03px;top:356.12px" class="cls_005"><span class="cls_005">1. </span><span class="cls_009">  Register</span><span class="cls_005"> for Watson Assistant on IBM Cloud by </span><span class="cls_016">clicking on this link</span><span class="cls_005">. Start by entering your</span></div>
+<div style="position:absolute;left:108.05px;top:371.87px" class="cls_005"><span class="cls_005">professional or student email. (If you don't have access to a business email, feel free to use</span></div>
+<div style="position:absolute;left:108.05px;top:387.62px" class="cls_005"><span class="cls_005">your personal email, however.)</span></div>
+<div style="position:absolute;left:90.03px;top:403.37px" class="cls_005"><span class="cls_005">2.   You'll be asked to log in if you already have an account with IBM.com. If you do, log in. If you</span></div>
+<div style="position:absolute;left:108.05px;top:419.12px" class="cls_005"><span class="cls_005">don't, provide the rest of the information requested (e.g., your name, country, etc.) and </span><span class="cls_009">click</span></div>
+<div style="position:absolute;left:108.05px;top:434.90px" class="cls_009"><span class="cls_009">on </span><span class="cls_011">Create an account</span><span class="cls_005"> to proceed with the creation of an account.</span></div>
+<div style="position:absolute;left:90.03px;top:450.65px" class="cls_005"><span class="cls_005">3.   If you created an account in the previous step, you'll be asked to </span><span class="cls_009">verify your email</span><span class="cls_005">. Check</span></div>
+<div style="position:absolute;left:108.05px;top:466.40px" class="cls_005"><span class="cls_005">your inbox for the verification email (and for good measure, be sure to check your spam</span></div>
+<div style="position:absolute;left:108.05px;top:482.15px" class="cls_005"><span class="cls_005">folder as well if you don't see the email after a few minutes). Click on the confirmation button</span></div>
+<div style="position:absolute;left:108.05px;top:497.90px" class="cls_005"><span class="cls_005">as indicated in the image below.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background2.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:90.03px;top:387.87px" class="cls_005"><span class="cls_005">4.   Upon successful verification of your email, you'll see a </span><span class="cls_008">Log In</span><span class="cls_005"> button. </span><span class="cls_009">Click on it, log in, and</span></div>
+<div style="position:absolute;left:108.05px;top:403.62px" class="cls_009"><span class="cls_009">accept the privacy notices</span><span class="cls_005">. At this point, you'll be logged in with your IBM ID and ready to</span></div>
+<div style="position:absolute;left:108.05px;top:419.37px" class="cls_005"><span class="cls_005">work with the IBM Cloud platform.</span></div>
+<div style="position:absolute;left:108.05px;top:450.15px" class="cls_005"><span class="cls_005">You’ll either be redirected to a Watson Assistant creation page (as shown below) or to your</span></div>
+<div style="position:absolute;left:108.05px;top:465.90px" class="cls_005"><span class="cls_005">IBM Cloud dashboard. In either case, close your browser tab and proceed to Exercise 2</span></div>
+<div style="position:absolute;left:108.05px;top:481.65px" class="cls_005"><span class="cls_005">below.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background3.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:72.03px;top:360.12px" class="cls_006"><span class="cls_006">Exercise 2: Create a Watson Assistant service</span></div>
+<div style="position:absolute;left:72.03px;top:386.62px" class="cls_005"><span class="cls_005">Now that you have an IBM Cloud account, it's time to create an instance of IBM Watson</span></div>
+<div style="position:absolute;left:72.03px;top:402.37px" class="cls_005"><span class="cls_005">Assistant. </span><span class="cls_009">Visit your IBM Cloud </span><span class="cls_013">dashboard</span><span class="cls_005"> by clicking on </span><a href="https://cocl.us/CB0203EN_Coursera_Dashboard">this link</a> <span class="cls_005"> or simply type cloud.ibm.com in</span></div>
+<div style="position:absolute;left:72.03px;top:418.12px" class="cls_005"><span class="cls_005">your browser’s address bar. Next, follow these simple steps:</span></div>
+<div style="position:absolute;left:76.53px;top:445.15px" class="cls_005"><span class="cls_005">1. </span><span class="cls_009">  Click on the </span><span class="cls_011">Create resource</span><span class="cls_009"> button</span><span class="cls_005"> in your dashboard.</span></div>
+<div style="position:absolute;left:76.53px;top:464.65px" class="cls_005"><span class="cls_005">2. </span><span class="cls_009">  Search for Watson Assistant</span><span class="cls_005"> in the search field or find it in the AI category of the catalog and</span></div>
+<div style="position:absolute;left:94.55px;top:476.90px" class="cls_005"><span class="cls_005">then </span><span class="cls_009">click on that tile</span><span class="cls_005">.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background4.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:76.53px;top:352.87px" class="cls_005"><span class="cls_005">3.   You should see a Watson Assistant creation page similar to the image below.</span></div>
+<div style="position:absolute;left:94.55px;top:660.95px" class="cls_005"><span class="cls_005">You can leave everything to default or customize the service instance name to your liking</span></div>
+<div style="position:absolute;left:94.55px;top:672.97px" class="cls_005"><span class="cls_005">(e.g., Watson Assistant Flower Shop). This is only important for developers who plan to have</span></div>
+<div style="position:absolute;left:94.55px;top:685.22px" class="cls_005"><span class="cls_005">multiple instances in their account, and would like to keep them organized. If you are not in the</span></div>
+<div style="position:absolute;left:94.55px;top:697.22px" class="cls_005"><span class="cls_005">USA or Canada, you might want to switch the region/location for optimal performance. It may</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background5.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:94.55px;top:71.78px" class="cls_005"><span class="cls_005">take up to a minute before the UI will allow you to select a different data center. Give it a</span></div>
+<div style="position:absolute;left:94.55px;top:83.78px" class="cls_005"><span class="cls_005">moment to finish loading the page if you don't see the option.</span></div>
+<div style="position:absolute;left:76.53px;top:109.80px" class="cls_005"><span class="cls_005">4.   Take note of the differences between the free Lite plan (which you'll be using) and the other</span></div>
+<div style="position:absolute;left:94.55px;top:122.05px" class="cls_005"><span class="cls_005">plans available, towards the end of the page.</span></div>
+<div style="position:absolute;left:76.53px;top:141.55px" class="cls_005"><span class="cls_005">5.   With the Lite plan selected, </span><span class="cls_009">click on the </span><span class="cls_011">Create</span><span class="cls_009"> button</span><span class="cls_005"> to create your instance.</span></div>
+<div style="position:absolute;left:76.53px;top:161.05px" class="cls_005"><span class="cls_005">6.   You'll be redirected to the launch page for the service you just created. </span><span class="cls_009">Click on the </span><span class="cls_011">Launch</span></div>
+<div style="position:absolute;left:94.55px;top:173.30px" class="cls_011"><span class="cls_011">Watson Assistant</span><span class="cls_009"> button</span><span class="cls_005"> to access the web application that will allow you to create chatbots.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background6.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:76.53px;top:71.78px" class="cls_005"><span class="cls_005">7.   A default Assistant and Skill will be created for you as shown in the image below.</span></div>
+<div style="position:absolute;left:76.53px;top:370.37px" class="cls_005"><span class="cls_005">8.</span></div>
+<div style="position:absolute;left:97.55px;top:370.37px" class="cls_009"><span class="cls_009">Click on </span><span class="cls_011">My first skill</span><span class="cls_005">, as it's where we'll teach our chatbot how to chat in the next modules of</span></div>
+<div style="position:absolute;left:94.55px;top:382.62px" class="cls_005"><span class="cls_005">this course. For quick access in future labs, </span><span class="cls_009">bookmark your skill page.</span></div>
+<div style="position:absolute;left:113.30px;top:423.15px" class="cls_015"><span class="cls_015">Help! I’m getting an error…</span></div>
+<div style="position:absolute;left:131.30px;top:456.90px" class="cls_005"><span class="cls_005">If </span><span class="cls_008">My first assistant</span><span class="cls_005"> and </span><span class="cls_008">My first skill</span><span class="cls_005"> were not created for you, and instead you see an error</span></div>
+<div style="position:absolute;left:131.30px;top:468.90px" class="cls_005"><span class="cls_005">such as the one below, clear your browser cache and log back in on cloud.ibm.com. From</span></div>
+<div style="position:absolute;left:131.30px;top:480.90px" class="cls_005"><span class="cls_005">your dashboard, click on </span><span class="cls_008">Services</span><span class="cls_005">, and then on the Watson Assistant instance you created</span></div>
+<div style="position:absolute;left:131.30px;top:492.90px" class="cls_005"><span class="cls_005">(e.g., </span><span class="cls_008">Watson Assistant Flower Shop</span><span class="cls_005">). Then repeat step 6.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="./Lab 1 - Creating Watson Instances_files/background7.jpg" width="612" height="792"></div>
+<div style="position:absolute;left:72.03px;top:35.03px" class="cls_002"><span class="cls_002">Lab 1: Creating Watson Instances</span></div>
+<div style="position:absolute;left:72.03px;top:75.53px" class="cls_005"><span class="cls_005">Note that you can always create new services (Watson Assistant or any other service available in</span></div>
+<div style="position:absolute;left:72.03px;top:91.28px" class="cls_005"><span class="cls_005">the IBM Cloud catalog) by clicking on the </span><span class="cls_008">Create resource</span><span class="cls_005"> button on your dashboard.</span></div>
+<div style="position:absolute;left:72.03px;top:134.55px" class="cls_006"><span class="cls_006">Create a Watson Discovery instance</span></div>
+<div style="position:absolute;left:72.03px;top:161.05px" class="cls_005"><span class="cls_005">Now that you have a Watson Assistant instance in your account, let's create a Watson Discovery</span></div>
+<div style="position:absolute;left:72.03px;top:176.80px" class="cls_005"><span class="cls_005">one as well, so as to be ready for the next couple of modules of this course.</span></div>
+<div style="position:absolute;left:72.03px;top:207.58px" class="cls_009"><span class="cls_009">Exercise 3: Create a Watson Assistant service</span></div>
+<div style="position:absolute;left:76.53px;top:234.58px" class="cls_005"><span class="cls_005">1. </span><span class="cls_009">  Click on the </span><span class="cls_011">Create resource</span><span class="cls_009"> button</span><span class="cls_005"> on </span><span class="cls_016">your dashboard</span><span class="cls_005">.</span></div>
+<div style="position:absolute;left:76.53px;top:254.08px" class="cls_005"><span class="cls_005">2. </span><span class="cls_009">  Search for Discovery</span><span class="cls_005"> in the search field or find it in the AI category of the catalog and</span></div>
+<div style="position:absolute;left:94.55px;top:266.08px" class="cls_005"><span class="cls_005">then </span><span class="cls_009">click on that tile</span><span class="cls_005">.</span></div>
+<div style="position:absolute;left:76.53px;top:285.85px" class="cls_005"><span class="cls_005">3.   A page will offer you to create the service, similarly to how you did with Watson Assistant.</span></div>
+<div style="position:absolute;left:94.55px;top:297.85px" class="cls_005"><span class="cls_005">Change the name of the service or keep the default, if you wish.</span></div>
+<div style="position:absolute;left:76.53px;top:317.35px" class="cls_005"><span class="cls_005">4.   Read the details of the various plans offered to you, and then, </span><span class="cls_009">with the free Lite plan selected,</span></div>
+<div style="position:absolute;left:94.55px;top:329.60px" class="cls_009"><span class="cls_009">click Create.</span></div>
+<div style="position:absolute;left:72.03px;top:352.87px" class="cls_005"><span class="cls_005">You're all set for now.</span></div>
+</div>
+
+
+
+</body></html>
